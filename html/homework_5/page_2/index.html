@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page 2</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <main>
+    <h1 class="chapter font-chapter">Intake Main Flow</h1>
+    <div class="warning"><span class="font-red">*</span> Mandatory field</div>
+
+    <!-- block Information -->
+    <div class="wrapper">
+      <h2 class="font-title">Information</h2>
+      <form class="form">
+        <div class="form__wrap">
+          <label for="city1">Intake Type<span class="font-red">* (select)</span></label>
+          <select name="" id="city1">
+            <option value="Kyiv">Kyiv</option>
+            <option value="Ivano-Frankivsk">Ivano-Frankivsk</option>
+            <option value="Poltava">Poltava</option>
+            <option value="Donetsk">Donetsk</option>
+          </select>
+        </div>
+        <div class="form__wrap">
+          <label for="">Enrollment Initiation Date jquery</label>
+          <input type="date" placeholder="05/13/2021" disabled>
+        </div>
+        <div class="form__wrap">
+          <label for="">phone</label>
+          <input type="tel" required>
+        </div>
+        <div class="form__wrap">
+          <label for="">Application Category<span class="font-red">*</span></label>
+          <input type="text" placeholder="05/13/2021" class="mark">
+        </div>
+        <div class="form__wrap">
+          <label for="">email</label>
+          <input type="email" required>
+        </div>
+        <div class="form__wrap">
+          <label for="">Enrollment Submission Date (Optional)</label>
+          <input type="date" placeholder="05/13/2021" disabled>
+        </div>
+        <div class="form__wrap">
+          <label for="">Application Registration (Optional)</label>
+          <input type="text" placeholder="APP0000116" class="mark font-blue">
+        </div>
+        <div class="form__purged">
+          <input type="checkbox" value="purged" id="el2">
+          <label for="el2">
+            <span class="point"></span>
+            <span class="font-checkbox">Purged</span>
+          </label>
+        </div>
+        <div class="form__wrap">
+          <label for="">Additional Information Requested Date (Optional)</label>
+          <input type="date" placeholder="05-13-2021">
+        </div>
+        <div class="form__wrap">
+          <label for="">Remaining Days Before Referral is Purged (Optional)</label>
+          <input type="number" placeholder="13" min="1" max="4">
+        </div>
+        <div class="form__wrap">
+          <label for="city2">Exempt from Paternity (Optional) &nbsp (select)</label>
+          <select name="" id="city2">
+            <option value="Kyiv">Kyiv</option>
+            <option value="Lviv">Lviv</option>
+            <option value="Ivano-Frankivsk">Ivano-Frankivsk</option>
+            <option value="Poltava">Poltava</option>
+            <option value="Donetsk">Donetsk</option>
+          </select>
+        </div>
+        <div class="form__wrap">
+          <label for="">Free Payment Date (Optional)</label>
+          <input type="date" placeholder="05/13/2021">
+        </div>
+        <div class="form__wrap">
+          <label for="">Enrollment Status (Optional)</label>
+          <input type="text" placeholder="Worklisted" class="mark">
+        </div>
+        <div>
+          <input type="checkbox" value="free_processed" id="el1" checked>
+          <label for="el1">
+            <span class="point"></span>
+            <span class="font-checkbox">Application Free Processed</span>
+          </label>
+        </div>
+      </form>
+    </div>
+
+    <!-- block Maternity Information -->
+    <div class="wrapper">
+      <h2 class="font-title">Maternity Information</h2>
+      <form class="form">
+        <div class="form__maternity">
+          <input type="checkbox" value="support" id="el3">
+          <label for="el3">
+            <span class="point"></span>
+            <span class="font-checkbox">Are you requesting child support services <br> for an
+              unborn child?</span>
+          </label>
+        </div>
+        <div class="form__wrap">
+          <label for="">Other known biological parent? (Optional)</label>
+          <input type="text" placeholder="None" class="mark">
+        </div>
+      </form>
+    </div>
+
+    <!-- block Official Use -->
+    <div class="wrapper">
+      <h2 class="font-title">Official Use</h2>
+      <form class="form">
+        <div class="form__wrap">
+          <label for="city3">Case Category (select)</label>
+          <select name="" id="city3">
+            <option value="Kyiv">Kyiv</option>
+            <option value="Lviv">Lviv</option>
+            <option value="Ivano-Frankivsk">Ivano-Frankivsk</option>
+            <option value="Poltava">Poltava</option>
+            <option value="Donetsk">Donetsk</option>
+          </select>
+        </div>
+        <div class="form__wrap">
+          <label for="">IV-D Indicator<span class="font-red">*</span></label>
+          <input type="text" placeholder="Non-IV-D" class="mark">
+        </div>
+        <div class="form__wrap">
+          <label for="">Arrears Only Indicator (Optional)</label>
+          <input type="text" placeholder="None" class="mark">
+        </div>
+        <div class="form__wrap">
+          <label for="">Intergovernmental Case Category (Optional)</label>
+          <input type="text" placeholder="None" class="mark">
+        </div>
+        <div class="form__wrap">
+          <label for="">Assigned County of Ownership (Optional)</label>
+          <input type="text" placeholder="None" class="mark">
+        </div>
+        <div class="form__wrap">
+          <label for="">Intergovernmental Case Type (Optional)</label>
+          <input type="text" placeholder="None" class="mark">
+        </div>
+        <div class="form__wrap">
+          <label for="">Intergovermental Case Status (details)</label>
+          <input type="text" placeholder="None" class="mark">
+        </div>
+        <div class="form__wrap">
+          <label for="">Case Number</label>
+          <input type="search" placeholder="Search Case Number" class="glass">
+        </div>
+        <div class="form__wrap">
+          <label for="">Special Handling Indicator for Applicant (Optional)</label>
+          <input type="text" placeholder="None" class="mark">
+        </div>
+        <div class="form__wrap">
+          <label for="">Referral Number</label>
+          <input type="search" placeholder="Search Referral Number" class="glass">
+        </div>
+        <div class="form__wrap">
+          <label for="">Special Handling Indicator for Other Parent (Optional)</label>
+          <input type="text" placeholder="None" class="mark">
+        </div>
+      </form>
+    </div>
+
+    <!-- block System Information -->
+    <div class="wrapper">
+      <h2 class="font-title">System Information</h2>
+      <form class="form">
+        <div class="form__wrap">
+          <label for="">Enrollment Taken by User </label>
+          <input type="search" placeholder="Search Input" class="glass">
+        </div>
+        <div class="form__wrap">
+          <label for="">Intake Supervisor (Optional)</label>
+          <input type="search" placeholder="Search" class="glass">
+        </div>
+        <div class="form__wrap">
+          <label for="">Worker (Optional)</label>
+          <input type="search" placeholder="Search Input" class="glass">
+        </div>
+        <div class="form__wrap">
+          <label for="">Owner (Optional)</label>
+          <input type="search" placeholder="Rajaneesh Banal" class="glass font-blue">
+        </div>
+      </form>
+    </div>
+
+    <!-- block buttom -->
+    <div class="btn">
+      <a class="btn__link font-btn" href="#!">Next</a>
+    </div>
+  </main>
+</body>
+
+</html>

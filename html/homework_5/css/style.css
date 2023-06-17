@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Padauk:wght@400;700&display=swap");
+body {
+  font-family: "Padauk", sans-serif;
+  background: #001124;
+}
+
+/* #region font */
+.font {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.font-bold {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.font-input {
+  font-weight: 400;
+  font-size: 22px;
+  color: #6e6060;
+}
+
+.font-password {
+  font-weight: 400;
+  font-size: 44px;
+  letter-spacing: 4px;
+  color: #b5a7a7;
+}
+
+.link {
+  color: #499ffe;
+}
+
+/* #endregion */
+/* #region page */
+.page {
+  max-width: 1440px;
+  min-height: 100vh;
+  margin: auto;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 50%;
+  margin-right: 8.7%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 12px;
+}
+.form__title {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 45px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.form__wrap {
+  display: flex;
+  flex-direction: column;
+}
+.form__input {
+  width: 361px;
+  height: 43px;
+  background: #ffffff;
+}
+.form__button {
+  width: 180px;
+  height: 43px;
+  background: #015fc7;
+}
+.form__submit {
+  align-self: center;
+  width: 180px;
+  height: 43px;
+  background: #015fc7;
+  border-radius: 5px;
+  margin-top: 36px;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+.form__submit:hover {
+  background: #0079ff;
+}
+.form__submit:active {
+  transform: translateY(2px);
+  background: #003064;
+}
+
+/* #endregion */

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>homework_7</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/animation.css">
+  <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+  <main>
+    <!-- -block header -->
+    <header>
+      <div class="header">
+        <a class="header__logo" href="../../index.html">
+          <img src="./img/logo/logo.png" alt="logo">
+        </a>
+        <div class="burger">
+          <input class="burger__input" type="checkbox" id="burger">
+          <label class="burger__label" for="burger">
+            <span class="burger__line line-one"></span>
+            <span class="burger__line line-two"></span>
+            <span class="burger__line line-three"></span>
+            <span class="burger__line line-four"></span>
+          </label>
+          <div class="burger__nav">
+            <a class="burger__link" href="#!">Appointment</a>
+            <a class="burger__link" href="#gallery">Gallery</a>
+            <a class="burger__link" href="#services">Services</a>
+            <a class="burger__link" href="#team">Team</a>
+            <a class="burger__link" href="#!">Reviews</a>
+            <a class="burger__link" href="#contact">Contact</a>
+          </div>
+        </div>
+        <ul class="header__nav">
+          <li class="header__item"><a href="#!" class="header__link">Appointment</a> </li>
+          <li class="header__item"><a href="#gallery" class="header__link">Gallery</a></li>
+          <li class="header__item"><a href="#services" class="header__link">Services</a></li>
+          <li class="header__item"><a href="#team" class="header__link">Team</a></li>
+          <li class="header__item"><a href="#!" class="header__link">Reviews</a></li>
+          <li class="header__item"><a href="#contact" class="header__link">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- -block page one -->
+    <div class="page" id="gallery">
+      <div class="page-one">
+        <img class="one" src="./img/windows_1/Rectangle_1.jpg" alt="img" class="one__img">
+        <img class="two" src="./img/windows_1/Rectangle_2.jpg" alt="img">
+        <img class="three" src="./img/windows_1/Rectangle_3.jpg" alt="img">
+        <img class="four" src="./img/windows_1/Rectangle_4.jpg" alt="img">
+        <img class="five" src="./img/windows_1/Rectangle_5.jpg" alt="img">
+        <img class="six" src="./img/windows_1/Rectangle_6.jpg" alt="img" class="one__img">
+      </div>
+    </div>
+
+    <!-- -block page two -->
+    <div class="page" id="services">
+      <div class="page-two">
+        <div class="left">
+          <div class="wrap-circle row-6 col-sm-">
+            <div class="circle c-one">
+              <img class="circle__img" src="./img/windows_2/Ellipse_1.png" alt="img">
+              <p class="circle__signature">Hair Styling</p>
+            </div>
+            <div class="circle c-two">
+              <img class="circle__img" src="./img/windows_2/Ellipse_2.png" alt="img">
+              <p class="circle__signature">Beard Trimming</p>
+            </div>
+            <div class="circle c-three">
+              <img class="circle__img" src="./img/windows_2/Ellipse_3.png" alt="img">
+              <p class="circle__signature">Smooth Shave</p>
+            </div>
+            <div class="circle c-four">
+              <img class="circle__img" src="./img/windows_2/Ellipse_4.png" alt="img">
+              <p class="circle__signature">Hair Straightening</p>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <img src="./img/windows_2/pexels-cottonbro.png" alt="img">
+        </div>
+      </div>
+    </div>
+
+    <!-- -block page three -->
+    <div class="page" id="team">
+      <div class="page-three">
+        <div class="page-three__title">Meet Our Highly Skilled Experts</div>
+        <div class="page-three__cards">
+          <div class="page-three__wrap f-name meredith">
+            <img src="./img/windows_3/Rectangle_1.png" alt="Meredith">
+          </div>
+          <div class="page-three__wrap f-name jason">
+            <img src="./img/windows_3/Rectangle_2.png" alt="Jason">
+          </div>
+          <div class="page-three__wrap f-name ryan">
+            <img src="./img/windows_3/Rectangle_3.png" alt="Ryan">
+          </div>
+          <div class="page-three__wrap f-name james">
+            <img src="./img/windows_3/Rectangle_4.png" alt="James">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -block page four -->
+    <div class="page" id="contact">
+      <div class="page-four">
+        <div class="page-four__support">
+          <div class="page-four__title">
+            Get in touch with Us and send a Message
+          </div>
+          <form class="page-four__form">
+            <input class="page-four__input" type="text" placeholder="name">
+            <input class="page-four__input" type="email" placeholder="email">
+            <textarea class="page-four__textarea" cols="30" rows="10" placeholder="Message"></textarea>
+          </form>
+        </div>
+        <div class="page-four__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d96806.47224495937!2d-74.01547658052012!3d40.69154297006333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s836th%20Avenue%2C%203rd%20Floor%2C%20New%20York%2C%20New%20York!5e0!3m2!1sru!2sua!4v1685303826763!5m2!1sru!2sua"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <div class="footer">
+        <ul class="footer__address">
+          <li>
+            Email
+            <a class="footer__link" href="mailto:kumarpratiyush1405@gmail.com">: kumarpratiyush1405@gmail.com</a>
+          </li>
+          <li>
+            Phone
+            <a class="footer__link" href="tel:+972723429834">: +(972) 723429834</a>
+          </li>
+          <li>
+            Headquarters
+            <a class="footer__link" href="https://goo.gl/maps/9v4BQgY4JxECrMrm9" target="_blank">: 836th Avenue, 3rd
+              Floor, <br>
+              New York, <br>
+              New York
+            </a>
+          </li>
+        </ul>
+        <ul class="footer__hours">
+          <li class="footer__hours-title">Opening Hours</li>
+          <li class="footer__hours-time">Monday - Friday : 10:00 am - 05:00 pm</li>
+          <li class="footer__hours-time">Saturday : 10:00 am - 02:00 pm</li>
+        </ul>
+        <ul class="footer__social">
+          <li class="footer__social">Connect With Us On</li>
+          <li>
+            <a class="footer__link row" href="https://www.instagram.com/" target="_blank">
+              <img class="footer__icons" src="./img/social/instagram.svg" alt="Instagram">Instagram</a>
+          </li>
+          <li>
+            <a class="footer__link row" href="https://uk-ua.facebook.com/" target="_blank">
+              <img class="footer__icons" src="./img/social/jam_facebook-square.svg" alt="Facebook">Facebook</a>
+          </li>
+          <li>
+            <a class="footer__link row" href="https://twitter.com/" target="_blank">
+              <img class="footer__icons" src="./img/social/twitter.svg" alt="Twitter">Twitter</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+</body>
+
+</html>

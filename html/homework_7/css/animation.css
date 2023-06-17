@@ -1,0 +1,132 @@
+@keyframes one-left {
+  from {
+    transform: translateX(-100vh);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes one-right {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes one {
+  from {
+    transform: translateX(-100vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes two {
+  0% {
+    transform: translate(-100%, -210%);
+  }
+  50% {
+    transform: translate(0, -210%);
+  }
+  100% {
+    transform: translate(0, 0%);
+  }
+}
+@keyframes three {
+  0% {
+    transform: translate(-100%, -110%);
+  }
+  50% {
+    transform: translate(0, -110%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@keyframes four {
+  0% {
+    transform: translate(100%, 210%);
+  }
+  50% {
+    transform: translate(0, 210%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@keyframes five {
+  0% {
+    transform: translate(100%, 110%);
+  }
+  50% {
+    transform: translate(0, 110%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@keyframes six {
+  from {
+    transform: translateX(100vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes c-one {
+  from, to {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(100%, 0);
+  }
+  50% {
+    transform: translate(100%, 100%);
+  }
+  75% {
+    transform: translate(0, 100%);
+  }
+}
+@keyframes c-two {
+  from, to {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, 100%);
+  }
+  50% {
+    transform: translate(-100%, 100%);
+  }
+  75% {
+    transform: translate(-100%, 0);
+  }
+}
+@keyframes c-three {
+  from, to {
+    transform: translate(100%, 0);
+  }
+  25% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -100%);
+  }
+  75% {
+    transform: translate(100%, -100%);
+  }
+}
+@keyframes c-four {
+  from, to {
+    transform: translate(-100%, 0);
+  }
+  25% {
+    transform: translate(-100%, -100%);
+  }
+  50% {
+    transform: translate(0, -100%);
+  }
+  75% {
+    transform: translate(0, 0);
+  }
+}

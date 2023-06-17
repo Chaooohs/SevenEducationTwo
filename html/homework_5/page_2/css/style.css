@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700&display=swap");
+body {
+  font-family: "Public Sans", sans-serif;
+}
+
+main {
+  max-width: 1200px;
+  max-width: 904px;
+  margin: 0 auto;
+  padding: 64px 30px 110px;
+  background: #F9F9F9;
+  box-shadow: 0px 0px 14px -2px black;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mark {
+  background: url("../img/image.svg") 100% 50%/auto auto no-repeat;
+  background-color: #fff;
+}
+
+.glass {
+  background: url("../img/glass.svg") 98% 50%/auto auto no-repeat;
+  background-color: #fff;
+}
+
+/* #region inputs */
+input, select {
+  font-weight: 400;
+  font-size: 16px;
+  color: #171717;
+  background: #ffffff;
+  border: 1px solid #adadad;
+  border-radius: 4px;
+  padding: 2.7% 10px;
+}
+
+label {
+  font-weight: 500;
+  font-size: clamp(12px, 1.9cqi, 16px);
+  line-height: 140%;
+  color: #171717;
+  padding-bottom: 8px;
+}
+
+input[disabled] {
+  background: #EFEFEF;
+  color: #747474;
+}
+
+input.font-blue::-moz-placeholder {
+  color: #0050D8;
+  opacity: 1;
+}
+
+input.font-blue::placeholder {
+  color: #0050D8;
+  opacity: 1;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox] + label > span.point {
+  width: 28px;
+  height: 28px;
+  background: url("../img/check_clear.png") 0 0/auto auto no-repeat;
+  margin-right: 4px;
+}
+
+input[type=checkbox]:checked + label > span.point {
+  background: url("../img/check_fill.png") 0 0/auto auto no-repeat;
+}
+
+/* #endregion */
+/* #region fonts */
+.font-chapter {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #171717;
+}
+
+.font-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #171717;
+  margin: 32px 0;
+}
+
+.font-checkbox {
+  font-weight: 400;
+  font-size: clamp(12px, 1.9cqi, 16px);
+  color: #171717;
+}
+
+.font-red {
+  color: #d83933;
+}
+
+.font-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+/* #endregion */
+/* #region content */
+.chapter {
+  padding-bottom: 80px;
+}
+
+.warning {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  margin-bottom: 24px;
+}
+
+.wrapper {
+  container-type: inline-size;
+  padding-bottom: 34px;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.form__wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 32px;
+}
+.form__purged {
+  grid-row: 4/6;
+  grid-column: 2/3;
+  align-self: self-end;
+  padding-bottom: 28px;
+}
+.form__maternity {
+  align-self: center;
+}
+
+.btn {
+  text-align: end;
+  margin-top: 16px;
+}
+.btn__link {
+  display: inline-block;
+  background: #0050d8;
+  border-radius: 4px;
+  padding: 9px 16px;
+}
+
+/* #endregion */

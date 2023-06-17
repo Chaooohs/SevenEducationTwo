@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Raleway:wght@400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.page {
+  container-type: inline-size;
+  max-width: 1440px;
+  padding: 0 24px;
+}
+
+.btn-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000;
+  text-align: center;
+  padding: 30px 28px;
+  border-radius: 50px;
+}
+
+.btn-link:hover {
+  color: #fff;
+  background-color: #696969;
+}
+
+/* #region // -header ---------- */
+
+.header {
+  display: grid;
+  grid-template: 1fr / 1fr 640px;
+  align-items: center;
+
+  &__logo {
+    width: 150px;
+    height: 90px;
+  }
+
+  &__nav {}
+
+  &__link {
+    padding: 30px 40px;
+  }
+
+  &__burger {}
+}
+
+/* #endregion */
+
+/* #region // -greet */
+
+.greet {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 20px;
+  padding-top: 100px;
+
+  &__descript {
+    display: grid;
+    grid-template-rows: auto 1fr 87px;
+  }
+
+  &__title {
+    font-weight: 800;
+    font-size: clamp(20px, 4cqi, 50px);
+    line-height: 150%;
+    margin: 0;
+    color: #000;
+  }
+
+  &__subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000;
+  }
+
+  &__button {
+    justify-self: flex-start;
+  }
+
+  &__image {
+    position: relative;
+    padding: 0 0 78% 0;
+  }
+
+  &__image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* #endregion */
+
+/* #region // -service */
+
+.service {
+  padding-top: 160px;
+
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    margin: 0 0 60px 0;
+    color: #000;
+  }
+
+  &__cards {
+    display: grid;
+    grid-template: 1fr / repeat(auto-fit,minmax(330px, 1fr));
+    gap: 24px;
+  }
+
+  &__card {
+    display: grid;
+    grid-template-rows: 0.7fr 1fr;
+    background-color: #C4C4C4;
+    border-radius: 20px;
+    padding: 32px 20px 76px;
+  }
+
+  &__card-title {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    margin: 0;
+    color: #000;
+  }
+
+  &__card-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 0;
+    color: #000;
+  }
+}
+
+/* #endregion */

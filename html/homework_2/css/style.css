@@ -1,0 +1,63 @@
+
+table {
+  width: 1028px;
+  color: white;
+  font-size: 4px;
+  border-spacing: 5px 10px;                   /** задає відстань між кордонами сусідніх комірок */
+  margin: 10% auto;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  /* border: 2px solid black; */
+}
+
+h2 {
+  font-size: 14px;
+  margin: 6px;
+}
+
+span {
+  display: block;
+  /* font-size: 6px; */
+}
+
+
+.alkali-metal {
+  background-color: #FF4343;
+}
+
+.alkaline-earth-metal {
+  background-color: #FF7043;
+}
+
+.transition {
+  background-color: #FF8A00;
+}
+
+.post-transition-metal {
+  background-color: green;
+}
+
+.nonmetal {
+  background-color: #2D68DA;
+}
+
+.metalloid {
+  background-color: #1B99C1;
+}
+
+.noble-gas {
+  background-color: #9328FE;
+}
+
+.lanthanides {
+  background-color: #699797;
+}
+
+.actinides {
+  background-color: #976995;
+}

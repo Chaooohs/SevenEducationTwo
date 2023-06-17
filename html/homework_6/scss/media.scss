@@ -1,0 +1,157 @@
+@media (min-width: 992px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .page {
+    padding: 0 15px;
+  }
+
+  // Header
+  .header {
+    flex-direction: row-reverse;
+  }
+  
+  .nav {
+    display: none;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .hamburger__btn {
+    display: block;
+  }
+
+  // About
+  .about {
+    padding-top: 13.6rem;
+  }
+
+  // Works
+  .works {
+    align-items: self-start;
+
+    &__nav {
+      column-gap: 0;
+    }
+
+    &__link {
+      padding: 5px 14px;
+    }
+  }
+
+  // Footer
+  .footer {
+    flex-direction: column;
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  // Common
+  .chapter {
+    font-size: 16px;
+  }
+  .title {
+    font-size: 39px;
+    line-height: 46px;
+  }
+
+  // About 
+  .about {
+    flex-direction: column;
+
+    &__image {
+      max-width: 400px;
+      width: 100%;
+      margin-bottom: 12px;
+    }
+
+    &__descript {
+      width: 100%;
+    }
+  }
+
+  // Skills
+  .skills {
+    flex-direction: column;
+    row-gap: 50px;
+
+    &__descript {
+      width: 100%;
+    }
+
+    &__icons {
+      width: 90%;
+      justify-content: flex-start;
+    }
+  }
+
+  // Works
+  .works {
+    &__nav {
+      display: block;
+    }
+
+    &__images {
+      flex-direction: column;
+      margin: auto;
+    }
+  }
+
+  // Customer
+  .customer {
+    container: none;
+    align-items: flex-start;
+
+    &__layout {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+
+  // Greet 
+  .greet {
+
+    &__hi {
+      line-height: 42px;
+      line-height: 42px;
+      align-self: flex-start;
+    }
+
+    &__name {
+      display: block;
+    }
+
+    &__title {
+      font-size: 39px;
+      line-height: 58px;
+      text-align: start;
+    }
+
+    &__descript {
+      font-size: 16px;
+      line-height: 30px;
+    }
+  }
+
+  // Skills
+  .skills__icons {
+    justify-content: center;
+  }
+
+  // Customer
+  .card__business {
+    flex-direction: column;
+    row-gap: 1.2rem;
+    text-align: center;
+  }
+}

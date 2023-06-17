@@ -1,0 +1,15 @@
+.page {
+  justify-content: space-between;
+  padding-left: 30px;
+}
+
+.image {
+  width: 27.2%;
+}
+
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 100%;
+}

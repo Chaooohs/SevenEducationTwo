@@ -1,0 +1,93 @@
+//block Extend --------------
+
+%link {
+  font-style: italic;
+  font-weight: 700;
+  font-size: clamp(18px, 4cqi, 36px);
+  color: #FFFCFC;
+  margin: 20px auto;
+}
+
+$link-hover: #c5c4c4;
+
+
+// block Burger ------------------
+.burger {
+  &__input {
+    display: none;
+  }
+
+  &__label {
+    position: relative;
+    display: none;
+    width: 40px;
+    height: 28px;
+    cursor: pointer;
+  }
+
+  &__line {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    transition: all 0.1s linear;
+  }
+
+  .line-one {
+    top: 0;
+  }
+
+  .line-two {
+    top: 50%;
+  }
+
+  .line-three {
+    top: 50%;
+  }
+
+  .line-four {
+    bottom: 0;
+  }
+
+  &__input:checked+.burger__label .line-one,
+  &__input:checked+.burger__label .line-four {
+    opacity: 0;
+  }
+
+  &__input:checked+.burger__label .line-two {
+    transform: rotate(45deg);
+  }
+
+  &__input:checked+.burger__label .line-three {
+    transform: rotate(-45deg);
+  }
+
+  &__input:checked~.burger__nav {
+    right: 0;
+  }
+
+  &__nav {
+    position: fixed;
+    top: 60px;
+    right: -100%;
+    bottom: 0;
+    width: calc(100% - 117.6px);
+    overflow: auto;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #000;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.5s;
+  }
+
+  &__link {
+    @extend %link;
+  }
+
+  &__link:hover {
+    color: $link-hover;
+  }
+}
