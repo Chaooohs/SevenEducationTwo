@@ -31,92 +31,92 @@
 
 // -n1 ---------------------------------
 
-// let variable = parseInt(prompt("Ведiть число:"))
+let variable = parseInt(prompt("Ведiть число:"))
 
-// if (variable === 10) {
-//   document.write(` <h3> Вірно </h3> `);
-// } else {
-//   document.write(` <h3> Неправильно </h3> `);
-// }
+if (variable === 10) {
+  document.write(` <h3> Вірно </h3> `);
+} else {
+  document.write(` <h3> Невiрно </h3> `);
+}
 
 // -n2 ------------------------------------
 
-// let min = parseInt(prompt("Ведiть число вiд 0 до 59"));
-// let result;
+let min = parseInt(prompt("Ведiть число вiд 0 до 59"));
+let result;
 
-// if (min >= 0 && min < 15) {
-//   result = "Перша";
-// } else if (min >= 0 && min < 30) {
-//   result = "Друга";
-// } else if (min >= 0 && min < 45) {
-//   result = "Третя";
-// } else if (min >= 0 && min < 60) {
-//   result = "Четверта";
-// } else {
-//   result = "Помилка";
-// }
+if (min >= 0 && min < 15) {
+  result = "Перша";
+} else if (min >= 0 && min < 30) {
+  result = "Друга";
+} else if (min >= 0 && min < 45) {
+  result = "Третя";
+} else if (min >= 0 && min < 60) {
+  result = "Четверта";
+} else {
+  result = "Помилка";
+}
 
-// document.write(` <h3> ${result} </h3> `);
+document.write(` <h3> ${result} </h3> `);
 
 // -n3 --------------------------------------
 
-// let num = prompt("Ведiть число 1, 2, 3 або 4");
-// let time;
+let num = prompt("Ведiть число 1, 2, 3 або 4");
+let time;
 
-// switch (num) {
-//   case '1':
-//     time = 'Зима';
-//     break;
-//   case '2':
-//     time = 'Весна';
-//     break;
-//   case '3':
-//     time = 'Лiто';
-//     break;
-//   case '4':
-//     time = 'Осiнь';
-//     break;
-//   default:
-//     time = 'Невiрно';
-// }
+switch (num) {
+  case '1':
+    time = 'Зима';
+    break;
+  case '2':
+    time = 'Весна';
+    break;
+  case '3':
+    time = 'Лiто';
+    break;
+  case '4':
+    time = 'Осiнь';
+    break;
+  default:
+    time = 'Невiрно';
+}
 
-// document.write(` <h3> ${time} </h3> `)
+document.write(` <h3> ${time} </h3> `)
 
 // -n4 ----------------------------------------------------
 
-// for (let i = 0; i < 10; i = i + 2) {
-//   for (let a = i; a < 10; a++) {
-//     document.write("&nbsp;");
-//   }
-//   for (let b = 1 + i; b > 0; b--) {
-//     document.write("*");
-//   }
-//   document.write("<br>");
-// }
+for (let i = 0; i < 10; i = i + 2) {
+  for (let a = i; a < 10; a++) {
+    document.write("&nbsp;");
+  }
+  for (let b = 1 + i; b > 0; b--) {
+    document.write("*");
+  }
+  document.write("<br>");
+}
 
-// for (let i = 0; i < 10; i = i + 2) {
-//   for (let a = i; a < 10; a++) {
-//     document.write("&nbsp;");
-//   }
-//   for (let b = 1 + i; b > 0; b--) {
-//     document.write("*");
-//   }
-//   document.write("<br>");
-// }
+for (let i = 0; i < 10; i = i + 2) {
+  for (let a = i; a < 10; a++) {
+    document.write("&nbsp;");
+  }
+  for (let b = 1 + i; b > 0; b--) {
+    document.write("*");
+  }
+  document.write("<br>");
+}
 
 // -m5 -----------------------------------------------------
 
-// const age = +prompt("Ведiть свiй рik");
+const age = +prompt("Ведiть свiй рik");
 
-// if (age > 0 && age < 18) {
-//   document.write(`<meta http-equiv="refresh" content="0; url=https://www.youtube.com/watch?v=icdSZKq9-sM">`);
-// } else if (age > 0 && age < 35) {
-//   document.write(`<meta http-equiv="refresh" content="2; url=https://www.google.com.ua/">`);
-// } else if (age > 0 && age < 60) {
-//   document.write(`<meta http-equiv="refresh" content="0; url=https://www.uz.gov.ua/">`);
-// } else {
-//   document.write(`<meta http-equiv="refresh" content="0; url=https://rozetka.com.ua/">`);
-// }
+if (age > 0 && age < 18) {
+  document.write(`<meta http-equiv="refresh" content="0; url=https://www.youtube.com/watch?v=icdSZKq9-sM">`);
+} else if (age > 0 && age < 35) {
+  document.write(`<meta http-equiv="refresh" content="2; url=https://www.google.com.ua/">`);
+} else if (age > 0 && age < 60) {
+  document.write(`<meta http-equiv="refresh" content="0; url=https://www.uz.gov.ua/">`);
+} else {
+  document.write(`<meta http-equiv="refresh" content="0; url=https://rozetka.com.ua/">`);
+}
 
 // -n6 ------------------------------------------------------
 
