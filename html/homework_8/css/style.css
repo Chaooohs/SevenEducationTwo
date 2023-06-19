@@ -60,7 +60,7 @@ img {
 }
 .greet__title {
   font-weight: 800;
-  font-size: clamp(20px, 4cqi, 50px);
+  font-size: clamp(28px, 4cqi, 50px);
   line-height: 150%;
   margin: 0;
   color: #000;
@@ -101,10 +101,10 @@ img {
   margin: 0 0 60px 0;
   color: #000;
 }
-.service__cards {
+.service__layout {
   display: grid;
   grid-template: 1fr/repeat(auto-fit, minmax(330px, 1fr));
-  gap: 24px;
+  gap: 1rem;
 }
 .service__card {
   display: grid;

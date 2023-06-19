@@ -14,8 +14,7 @@ main {
 }
 
 .page {
-  height: 100vh;
-  padding-top: 10vh;
+  margin: 6% 0;
   background-color: #fff;
   overflow: hidden;
 }
