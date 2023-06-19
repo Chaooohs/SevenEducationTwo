@@ -13,26 +13,43 @@ img {
   display: block;
 }
 
+/* #region //- common */
+
 .page {
   container-type: inline-size;
   max-width: 1440px;
   padding: 0 24px;
+  box-sizing: border-box;
 }
 
-.btn-link {
+.title {
+  font-weight: 700;
+  font-size: clamp(28px, 3cqi, 36px);
+  line-height: 150%;
+  text-align: center;
+  color: #000;
+  margin: 0 0 68px 0;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  font-size: clamp(18px, 2cqi, 20px);
+  line-height: 150%;
+  color: #000;
+}
+
+.button {
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
-  color: #000;
-  text-align: center;
-  padding: 30px 28px;
-  border-radius: 50px;
-}
-
-.btn-link:hover {
   color: #fff;
+  text-align: center;
+  border-radius: 50px;
   background-color: #696969;
 }
+
+/* #endregion */
 
 /* #region // -header ---------- */
 
@@ -46,10 +63,19 @@ img {
     height: 90px;
   }
 
-  &__nav {}
-
   &__link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000;
+    text-align: center;
     padding: 30px 40px;
+    border-radius: 50px;
+  }
+
+  &__link:hover {
+    color: #fff;
+    background-color: #696969;
   }
 
   &__burger {}
@@ -65,9 +91,9 @@ img {
   gap: 20px;
   padding-top: 100px;
 
-  &__descript {
+  &__layout {
     display: grid;
-    grid-template-rows: auto 1fr 87px;
+    grid-template-rows: auto 1fr auto;
   }
 
   &__title {
@@ -76,17 +102,15 @@ img {
     line-height: 150%;
     margin: 0;
     color: #000;
-  }
 
-  &__subtitle {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    color: #000;
+    &_grey {
+      color: #696969;
+    }
   }
 
   &__button {
     justify-self: flex-start;
+    padding: 3.7% 28px;
   }
 
   &__image {
@@ -111,18 +135,9 @@ img {
 .service {
   padding-top: 160px;
 
-  &__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 150%;
-    text-align: center;
-    margin: 0 0 60px 0;
-    color: #000;
-  }
-
   &__layout {
     display: grid;
-    grid-template: 1fr / repeat(auto-fit,minmax(330px, 1fr));
+    grid-template: 1fr / repeat(auto-fit, minmax(330px, 1fr));
     gap: 1rem;
   }
 
@@ -131,7 +146,7 @@ img {
     grid-template-rows: 0.7fr 1fr;
     background-color: #C4C4C4;
     border-radius: 20px;
-    padding: 32px 20px 76px;
+    padding: 32px 20px;
   }
 
   &__card-title {
@@ -144,11 +159,38 @@ img {
   }
 
   &__card-text {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
     margin: 0;
-    color: #000;
+  }
+}
+
+/* #endregion */
+
+/* #region //- works */
+
+.works {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  padding-top: 96px;
+  padding-bottom: 130px;
+  border-bottom: 1px solid #000;
+
+  &__layout {
+    display: grid;
+    grid-template: 1fr / repeat(auto-fit, minmax(336px, 1fr));
+    gap: 1rem;
+    margin-bottom: 100px;
+  }
+
+  &__item {}
+
+  &__card {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  &__button {
+    justify-self: center;
+    padding: 2.2% 28px
   }
 }
 
