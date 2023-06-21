@@ -1,0 +1,86 @@
+@media (max-width: 992px) {
+  .page {
+    padding: 0 12px 40px;
+  }
+
+  .header__nav,
+  .footer__nav {
+    display: none;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 15px 0;
+  }
+
+  .footer__occup,
+  .footer__left {
+    margin: 0 0 50px 0;
+  }
+
+  .footer__copy {
+    padding: 50px 22px 50px 0;
+    text-align: center;
+    margin: 0;
+    border: none;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .works,
+  .test {
+    border: none
+  }
+
+  .test__layout {
+    grid-template: 1fr/ 1fr;
+  }
+
+  .remind {
+    grid-template-columns: 1fr;
+    padding-bottom: 135px;
+  }
+
+  .greet__button {
+    justify-self: center;
+  }
+
+
+}
+
+@media (max-width: 576px) {
+  .greet {
+    grid-template-columns: 1fr;
+  }
+
+  .greet__image {
+    grid-row: 1;
+    width: 240px;
+    justify-self: center;
+  }
+
+  .greet__button {
+    padding: 3.7% 19%;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .footer,
+  .test__card {
+    background-color: #C4C4C4;
+  }
+
+  .test__card {
+    padding: 20px 10px;
+  }
+
+  .remind__image {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+}
