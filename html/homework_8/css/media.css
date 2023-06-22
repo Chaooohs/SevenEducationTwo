@@ -91,9 +91,6 @@
     font-weight: bold;
     color: #696969;
   }
-  .greet {
-    padding-top: 146px;
-  }
   .footer {
     display: flex;
     flex-direction: column;
@@ -118,6 +115,7 @@
   .service,
   .works {
     padding-top: 90px;
+    padding-bottom: 0;
   }
   .service__title,
   .works__title,
@@ -128,11 +126,15 @@
     margin-bottom: 60px;
     padding-bottom: 0;
   }
+  .test {
+    padding: 64px 0 68px;
+  }
   .test__layout {
     grid-template: 1fr/1fr;
   }
   .remind {
     grid-template-columns: 1fr;
+    padding-top: 0;
     padding-bottom: 135px;
   }
   .greet__button {
@@ -203,9 +205,6 @@
   .service__card {
     text-align: center;
     padding: 52px 5px 30px;
-  }
-  .test {
-    padding: 64px 0;
   }
   .footer,
   .test__card {
