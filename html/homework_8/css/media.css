@@ -1,10 +1,62 @@
 @media (max-width: 992px) {
+  body.show {
+    overflow: hidden;
+  }
   .page {
     padding: 0 12px 40px;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  .header {
+    padding-right: 20px;
   }
   .header__nav,
   .footer__nav {
     display: none;
+  }
+  .burger {
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+  }
+  .header__logo {
+    width: 105px;
+    height: 60px;
+  }
+  .header__nav.show {
+    transform: none;
+  }
+  .header__nav.show {
+    position: fixed;
+    z-index: 15;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 60%;
+    display: grid;
+    grid-template-rows: repeat(4, 50px);
+    padding: 100px 0;
+    background-color: #fff;
+    border-left: 1px solid #000;
+    transition: all 1s linear;
+  }
+  .header__nav.show .header__link {
+    align-self: center;
+    padding: 0;
+    background-color: transparent;
+  }
+  .header__nav.show .header__link:hover {
+    font-weight: bold;
+    color: #000;
   }
   .footer {
     display: flex;
@@ -53,6 +105,14 @@
   }
 }
 @media (max-width: 400px) {
+  .service__layout,
+  .works__layout {
+    grid-template-columns: 1fr;
+  }
+  .service__card {
+    text-align: center;
+    padding: 52px 5px 30px;
+  }
   .footer,
   .test__card {
     background-color: #C4C4C4;

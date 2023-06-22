@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Oxygen', sans-serif;
+  margin: 0;
 }
 
 a {
@@ -20,13 +21,12 @@ img {
 /* #region //- common */
 
 .page {
-  container-type: inline-size;
   max-width: 1440px;
   padding: 0 24px 60px;
 }
 
 .title {
-  // font-family: Raleway;
+  font-family: Raleway;
   font-weight: 700;
   font-size: clamp(28px, 3cqi, 36px);
   line-height: 150%;
@@ -79,6 +79,7 @@ img {
   display: grid;
   grid-template: 1fr / 1fr 640px;
   align-items: center;
+  background-color: #fff;
 
   &__logo {
     width: 150px;
@@ -99,8 +100,10 @@ img {
     color: #fff;
     background-color: #696969;
   }
+}
 
-  &__burger {}
+.burger {
+  display: none;
 }
 
 /* #endregion */
@@ -184,6 +187,7 @@ img {
     font-size: 30px;
     line-height: 150%;
     margin: 0;
+    margin-bottom: 16px;
     color: #000;
   }
 
