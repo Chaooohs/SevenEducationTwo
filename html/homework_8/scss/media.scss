@@ -71,9 +71,11 @@
   .burger.show .burger__four {
     opacity: 0;
   }
+
   .burger.show .burger__two {
     transform: rotate(45deg);
   }
+
   .burger.show .burger__three {
     transform: rotate(-45deg);
   }
@@ -157,6 +159,11 @@
     justify-self: center;
   }
 
+  .works__button,
+  .greet__button {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
 
 }
 
@@ -179,14 +186,34 @@
 
 @media (max-width: 400px) {
 
+  .service,
+  .works {
+    padding-top: 90px;
+  }
+
+  .service__title,
+  .works__title {
+    margin-bottom: 38px;
+  }
+
   .service__layout,
   .works__layout {
     grid-template-columns: 1fr;
+    gap: 38px;
+  }
+
+  .works__layout {
+    margin-bottom: 60px;
+    padding-bottom: 0;
   }
 
   .service__card {
     text-align: center;
     padding: 52px 5px 30px;
+  }
+
+  .test {
+    padding: 64px 0;
   }
 
   .footer,

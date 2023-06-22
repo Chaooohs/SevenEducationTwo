@@ -102,6 +102,7 @@ img {
   }
 
   &__mobile {
+    display: none;
     transform: translateX(100vw);
   }
 }

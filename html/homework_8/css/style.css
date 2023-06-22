@@ -94,6 +94,7 @@ img {
   background-color: #696969;
 }
 .header__mobile {
+  display: none;
   transform: translateX(100vw);
 }
 
