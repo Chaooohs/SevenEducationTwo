@@ -91,6 +91,9 @@
     font-weight: bold;
     color: #696969;
   }
+  .greet {
+    padding-top: 146px;
+  }
   .footer {
     display: flex;
     flex-direction: column;
@@ -111,6 +114,19 @@
   .works,
   .test {
     border: none;
+  }
+  .service,
+  .works {
+    padding-top: 90px;
+  }
+  .service__title,
+  .works__title,
+  .test__title {
+    margin-bottom: 38px;
+  }
+  .works__layout {
+    margin-bottom: 60px;
+    padding-bottom: 0;
   }
   .test__layout {
     grid-template: 1fr/1fr;
@@ -138,27 +154,17 @@
     justify-self: center;
   }
   .greet__button {
-    padding: 3.7% 19%;
     margin-top: 50px;
   }
 }
-@media (max-width: 400px) {
-  .service,
-  .works {
-    padding-top: 90px;
-  }
-  .service__title,
-  .works__title {
-    margin-bottom: 38px;
-  }
+@media (max-width: 450px) {
   .service__layout,
   .works__layout {
     grid-template-columns: 1fr;
     gap: 38px;
   }
-  .works__layout {
-    margin-bottom: 60px;
-    padding-bottom: 0;
+  .works__card {
+    height: 290px;
   }
   .service__card {
     text-align: center;
@@ -177,5 +183,8 @@
   .remind__image {
     width: 100%;
     border-radius: 5px;
+  }
+  .social {
+    justify-content: center;
   }
 }
