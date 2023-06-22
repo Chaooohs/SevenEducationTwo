@@ -93,6 +93,9 @@ img {
   color: #fff;
   background-color: #696969;
 }
+.header__mobile {
+  transform: translateX(100vw);
+}
 
 .burger {
   display: none;
