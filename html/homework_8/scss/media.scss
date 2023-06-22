@@ -123,6 +123,7 @@
   .greet {
     padding-top: 146px;
   }
+
   .footer {
     display: flex;
     flex-direction: column;
@@ -210,8 +211,49 @@
     gap: 38px;
   }
 
+  .works__link {
+    border-radius: 8px;
+  }
+
   .works__card {
     height: 290px;
+  }
+
+  //- works content //
+
+  .works__content {
+    display: grid;
+    grid-template-rows: 1fr 1fr 4fr;
+    justify-content: center;
+    padding: 36px 0;
+  }
+
+  .works__content span:nth-child(1) {
+    font-family: Raleway;
+    text-align: center;
+    font-size: 24px;
+    line-height: 150%;
+    color: #fff;
+  }
+
+  .works__content span:nth-child(2) {
+    font-family: Raleway;
+    text-align: center;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+  }
+
+  .works__content button {
+    align-self: flex-end;
+    width: 190px;
+    height: 60px;
+    border-radius: 50px;
+    background: #696969;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
   }
 
   .service__card {

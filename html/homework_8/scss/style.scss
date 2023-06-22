@@ -226,21 +226,32 @@ img {
     margin-bottom: 100px;
   }
 
-  &__link:hover img {
+  &__link {
+    max-width: 450px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 0 auto;
+  }
+
+  &__link:hover .works__card {
     transform: scale(1.1);
   }
 
   &__card {
-    max-width: 450px;
+    height: 260px;
     margin: 0 auto;
-    border-radius: 20px;
-    overflow: hidden;
+    background: url('../img/works/image2.jpg') center / cover no-repeat;
+    transition: all .5s linear;
+  }
+
+  &__content {
+    display: none;
   }
 
   &__image {
     object-fit: cover;
     height: 100%;
-    transition: all .5s linear;
   }
 
   &__button {

@@ -199,20 +199,29 @@ img {
   gap: 1rem;
   margin-bottom: 100px;
 }
-.works__link:hover img {
+.works__link {
+  max-width: 450px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.works__link:hover .works__card {
   transform: scale(1.1);
 }
 .works__card {
-  max-width: 450px;
+  height: 260px;
   margin: 0 auto;
-  border-radius: 20px;
-  overflow: hidden;
+  background: url("../img/works/image2.jpg") center/cover no-repeat;
+  transition: all 0.5s linear;
+}
+.works__content {
+  display: none;
 }
 .works__image {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
-  transition: all 0.5s linear;
 }
 .works__button {
   justify-self: center;
