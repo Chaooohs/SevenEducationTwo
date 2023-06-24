@@ -10,6 +10,11 @@
     padding: 0 12px 40px;
   }
 
+  .button {
+    width: 223px;
+    height: 61px;
+  }
+
   header {
     position: fixed;
     top: 0;
@@ -183,13 +188,6 @@
   .greet__button {
     justify-self: center;
   }
-
-  .works__button,
-  .greet__button {
-    padding-top: 18px;
-    padding-bottom: 18px;
-  }
-
 }
 
 @media (max-width: 576px) {
@@ -250,6 +248,7 @@
   }
 
   .works__content button {
+    font-size: 17px;
     align-self: flex-end;
     width: 190px;
     height: 60px;

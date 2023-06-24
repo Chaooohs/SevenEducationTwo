@@ -56,11 +56,14 @@ img {
 }
 
 .button {
+  width: 207px;
+  height: 87px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 400;
   font-size: 18px;
-  line-height: 150%;
   color: #fff;
-  text-align: center;
   border-radius: 50px;
   background-color: #696969;
   transition: all 0.1s linear;
@@ -139,7 +142,6 @@ img {
 }
 .greet__button {
   justify-self: flex-start;
-  padding: 3.7% 28px;
 }
 .greet__image {
   position: relative;
@@ -235,7 +237,6 @@ img {
 }
 .works__button {
   justify-self: center;
-  padding: 2.2% 28px;
 }
 .works__disabled {
   display: none;

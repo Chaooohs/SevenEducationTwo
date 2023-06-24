@@ -1,4 +1,5 @@
 //=====================================================================
+
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Raleway:wght@400;500;600;700;800&display=swap');
 
 /* #region //- tags */
@@ -61,11 +62,15 @@ img {
 }
 
 .button {
+  width: 207px;
+  height: 87px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+  ;
   font-weight: 400;
   font-size: 18px;
-  line-height: 150%;
   color: #fff;
-  text-align: center;
   border-radius: 50px;
   background-color: #696969;
   transition: all .1s linear;
@@ -156,7 +161,6 @@ img {
 
   &__button {
     justify-self: flex-start;
-    padding: 3.7% 28px;
   }
 
   &__image {
@@ -269,7 +273,6 @@ img {
 
   &__button {
     justify-self: center;
-    padding: 2.2% 28px
   }
 
   &__disabled {
@@ -452,6 +455,7 @@ img {
   a {
     color: #000;
   }
+
   &__continue {
     font-weight: 300;
   }
