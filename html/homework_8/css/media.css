@@ -106,16 +106,21 @@
     margin: 0;
     border: none;
   }
+  .address {
+    font-size: 24px;
+    margin-top: 126px;
+  }
 }
 @media (max-width: 768px) {
-  .works,
   .test {
     border: none;
   }
-  .service,
-  .works {
-    padding-top: 90px;
-    padding-bottom: 0;
+  .service {
+    padding: 90px 0;
+  }
+  .works,
+  .test {
+    padding-bottom: 64px;
   }
   .service__title,
   .works__title,
@@ -125,9 +130,6 @@
   .works__layout {
     margin-bottom: 60px;
     padding-bottom: 0;
-  }
-  .test {
-    padding: 64px 0 68px;
   }
   .test__layout {
     grid-template: 1fr/1fr;
@@ -219,5 +221,8 @@
   }
   .social {
     justify-content: center;
+  }
+  .address {
+    margin: 230px 0 180px;
   }
 }

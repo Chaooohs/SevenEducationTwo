@@ -160,6 +160,7 @@ img {
 .service {
   padding-top: 11.1%;
   /* 160/1440 */
+  padding-bottom: 6.7%;
 }
 .service__title {
   margin-bottom: 4.7%;
@@ -195,11 +196,8 @@ img {
 .works {
   display: grid;
   grid-template-rows: auto 1fr auto;
-  padding-top: 6.7%;
-  /* 96/1440 */
   padding-bottom: 9%;
   /* 130/1440 */
-  border-bottom: 1px solid #000;
 }
 .works__title {
   margin-bottom: 5.1%;
@@ -248,6 +246,7 @@ img {
 .test {
   padding: 4.4% 0 9%;
   border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
 }
 .test__title {
   margin-bottom: 13.2%;
@@ -374,6 +373,20 @@ img {
   font-family: Raleway;
   font-size: 18px;
   color: #000;
+}
+
+/* #endregion */
+/* #region //- address */
+.address {
+  font-size: 18px;
+  line-height: 150%;
+  margin: 70px 0;
+}
+.address a {
+  color: #000;
+}
+.address__continue {
+  font-weight: 300;
 }
 
 /* #endregion */

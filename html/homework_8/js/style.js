@@ -12,18 +12,23 @@ burger.addEventListener("click", function () {
 
 //================================================================================
 
-const link = document.getElementById('el1',)
+const cardFive = document.querySelector("#el1");
+const cardSix = document.querySelector("#el2");
+const seeAllProjectsButton = document.querySelector('#el3')
 
-const mQuery = window.matchMedia("(max-width: 450px)");
+const width = window.matchMedia("(max-width: 450px)");
 
-function mobileScreen(e) {
-  if (e.matches) {
-    console.log("Media Query Matched!");
-    link.classList.add('works__disabled')
-    
+function mobileScreen(width) {
+  if (width.matches) {
+    cardFive.classList.add("works__disabled");
+    cardSix.classList.add("works__disabled");
+    seeAllProjectsButton.classList.remove("works__disabled");
+  } else {
+    cardFive.classList.remove("works__disabled");
+    cardSix.classList.remove("works__disabled");
+    seeAllProjectsButton.classList.add("works__disabled");
   }
 }
 
-mQuery.addListener(mobileScreen);
-
-
+width.addListener(mobileScreen);
+mobileScreen(width);
