@@ -273,6 +273,10 @@ img {
     justify-self: center;
     padding: 2.2% 28px
   }
+  
+  &__disabled {
+    display: none;
+  }
 }
 
 /* #endregion */

@@ -239,6 +239,9 @@ img {
   justify-self: center;
   padding: 2.2% 28px;
 }
+.works__disabled {
+  display: none;
+}
 
 /* #endregion */
 /* #region //- test */
