@@ -34,6 +34,7 @@ img {
 .page {
   max-width: 1440px;
   padding: 0 24px 60px;
+  margin: 0 auto;
 }
 
 .title {
@@ -498,6 +499,14 @@ img {
     padding-bottom: 6.3%;
     /* 90/1440 */
   }
+  
+  &__title {
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #000;
+  }
 
   &__about-description {
     display: grid;
@@ -511,7 +520,11 @@ img {
   }
 
   &__about-medium {
+    font-family: Raleway;
+    font-size: 18px;
     font-weight: 500;
+    line-height: 150%;
+    color: #000;
   }
 
   &__about-text {
