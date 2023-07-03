@@ -83,6 +83,23 @@ img {
   height: 12px;
 }
 
+.address {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #000;
+  margin: 70px 0;
+}
+.address a {
+  color: #000;
+}
+.address a:last-of-type {
+  font-weight: 300;
+}
+.address a:hover {
+  color: #a7a7a7;
+}
+
 /* #endregion */
 /* #region // -header */
 .header {
@@ -374,20 +391,6 @@ img {
   font-family: Raleway;
   font-size: 18px;
   color: #000;
-}
-
-/* #endregion */
-/* #region //- address */
-.address {
-  font-size: 18px;
-  line-height: 150%;
-  margin: 70px 0;
-}
-.address a {
-  color: #000;
-}
-.address__continue {
-  font-weight: 300;
 }
 
 /* #endregion */

@@ -66,8 +66,7 @@ img {
   height: 87px;
   display: flex;
   align-items: center;
-  justify-content: center
-  ;
+  justify-content: center;
   font-weight: 400;
   font-size: 18px;
   color: #fff;
@@ -80,6 +79,8 @@ img {
   transform: translateY(3px);
 }
 
+// -------------------------
+
 .social {
   display: flex;
   gap: 70px;
@@ -88,6 +89,28 @@ img {
   &__link {
     width: 16px;
     height: 12px;
+  }
+}
+
+// --------------------------
+
+.address {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #000;
+  margin: 70px 0;
+
+  a {
+    color: #000;
+  }
+
+  a:last-of-type {
+    font-weight: 300;
+  }
+
+  a:hover {
+    color: #a7a7a7;
   }
 }
 
@@ -446,19 +469,3 @@ img {
 
 /* #endregion */
 
-/* #region //- address */
-.address {
-  font-size: 18px;
-  line-height: 150%;
-  margin: 70px 0;
-
-  a {
-    color: #000;
-  }
-
-  &__continue {
-    font-weight: 300;
-  }
-}
-
-/* #endregion */
