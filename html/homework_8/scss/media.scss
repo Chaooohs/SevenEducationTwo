@@ -147,6 +147,25 @@
     margin-top: 126px;
     margin-bottom: 72px;
   }
+
+  //- cusy --------------
+
+  .cusy__header {
+    margin-top: 60px;
+  }
+
+  .cusy__subtitle {
+    font-size: 20px;
+  }
+
+  .cusy__address {
+    margin: 44px 0;
+  }
+
+  .cusy__about-description {
+    grid-template-columns: 1fr;
+    row-gap: 42px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -187,6 +206,20 @@
 
   .greet__button {
     justify-self: center;
+  }
+
+  //- cusy ------------
+
+  .cusy__work {
+    background-color: #fff;
+    padding: 42px 0 65px;
+  }
+
+  .cusy__chapter {
+    font-size: 24px;
+  }
+  .cusy__greet-subtitle {
+    font-size: 36px;
   }
 }
 

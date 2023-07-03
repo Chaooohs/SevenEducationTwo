@@ -55,6 +55,22 @@ img {
   color: #000;
 }
 
+.text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #000;
+}
+
+.card-title {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 150%;
+  margin: 0;
+  color: #000;
+}
+
 .button {
   width: 207px;
   height: 87px;
@@ -196,15 +212,6 @@ img {
   background-color: #C4C4C4;
   border-radius: 20px;
   padding: 32px 20px;
-}
-.service__card-title {
-  font-family: "Raleway";
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 150%;
-  margin: 0;
-  margin-bottom: 16px;
-  color: #000;
 }
 .service__card-text {
   margin: 0;
@@ -391,6 +398,65 @@ img {
   font-family: Raleway;
   font-size: 18px;
   color: #000;
+}
+
+/* #endregion */
+/* #region //- cusy study */
+.cusy__header {
+  background-color: #C4C4C4;
+  padding: 54px 0 100px;
+}
+.cusy__subtitle {
+  font-weight: 400;
+  text-align: center;
+}
+.cusy__chapter {
+  text-transform: uppercase;
+}
+.cusy__about {
+  padding-bottom: 6.3%;
+  /* 90/1440 */
+}
+.cusy__about-description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cusy__about-left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.cusy__about-medium {
+  font-weight: 500;
+}
+.cusy__about-text {
+  width: 75%;
+  margin: 0;
+}
+.cusy__work {
+  padding: 60px 94px 110px;
+  background-color: #C4C4C4;
+}
+.cusy__mg {
+  margin-top: 80px;
+}
+.cusy__greet {
+  padding: 80px 0 90px;
+}
+.cusy__greet-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #000;
+}
+.cusy__greet-subtitle {
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 400;
+  color: #000;
+}
+.cusy__btn {
+  display: block;
+  width: 44px;
 }
 
 /* #endregion */
