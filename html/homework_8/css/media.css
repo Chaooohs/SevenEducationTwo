@@ -114,6 +114,9 @@
     margin-top: 126px;
     margin-bottom: 72px;
   }
+  .remind__about {
+    padding-top: 138px;
+  }
   .cusy__header {
     margin-top: 100px;
   }
@@ -158,6 +161,9 @@
     grid-template-columns: 1fr;
     padding-top: 0;
     padding-bottom: 135px;
+  }
+  .remind__about {
+    grid-template-columns: 1fr;
   }
   .greet__button {
     justify-self: center;

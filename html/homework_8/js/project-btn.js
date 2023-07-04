@@ -2,15 +2,15 @@
 
 const seeAllProjectsButton = document.getElementById('el3')
 
-const width = window.matchMedia("(max-width: 450px)");
+const btn = window.matchMedia("(max-width: 450px)");
 
-function mobileScreen(width) {
-  if (width.matches) {
+function projectsButton(btn) {
+  if (btn.matches) {
     seeAllProjectsButton.classList.remove("works__disabled");
   } else {
     seeAllProjectsButton.classList.add("works__disabled");
   }
 }
 
-width.addListener(mobileScreen);
-mobileScreen(width);
+width.addListener(projectsButton);
+projectsButton(btn);
